@@ -9,6 +9,11 @@
   max-width: 33%!important;
 }
 
+.title-divider {
+  margin-top: 1rem;
+  margin-bottom: 2rem
+}
+
 .text-sans-serif {
   font-family: "Open Sans",sans-serif!important;
   font-weight: 200!important;
@@ -37,5 +42,31 @@
 
 .text-white strong {
   color: #989898;
+
+}
+
+@media (max-width: 500px) {
+
+  .resize-padding {
+    padding-top: 50px;
+  }
+
+  .gallery-item-group{
+    flex-basis: 100%!important;
+    max-width: 100%!important;
+  }
+
+  .title-divider {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem
+  }
+
+  .text-resize {
+    font-size: 1.6rem;
+  }
+
+  .text-subtitle {
+    font-size: 1rem;
+  }
 
 }
