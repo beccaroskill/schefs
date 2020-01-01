@@ -1,0 +1,41 @@
+.main-logo {
+  width: 30%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.gallery-item-group {
+  flex-basis: 33%!important;
+  max-width: 33%!important;
+}
+
+.text-sans-serif {
+  font-family: "Open Sans",sans-serif!important;
+  font-weight: 200!important;
+}
+
+.text-serif {
+  font-family: 'Gelasio', serif!important;
+  letter-spacing: 0.75px;
+}
+
+.text-subtitle {
+  display: inline-block;
+  font-size: 1.39rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 1.5rem;
+  word-spacing: 2px;
+}
+
+.text-small {
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.text-white strong {
+  color: #989898;
+
+}
