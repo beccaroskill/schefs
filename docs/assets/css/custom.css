@@ -4,6 +4,21 @@
   margin-right: 30%;
 }
 
+.nav-tabs-outline {
+  justify-content: left;
+}
+
+.active {
+  color: #000 !important;
+  background-color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.disabled {
+  color: #efefef !important;
+  border: 1px solid #efefef !important;
+}
+
 .gallery-item-group {
   flex-basis: 33%!important;
   max-width: 33%!important;
@@ -26,7 +41,7 @@
 
 .text-subtitle {
   display: inline-block;
-  font-size: 1.39rem;
+  font-size: 1.25rem;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 0.75px;

@@ -7,7 +7,7 @@
     "schefs", "college", "university", "food", "cooking", "culinary"
   ],
   "author": "beccaroskill",
-  "homepage": "https://beccaroskill.github.io/schefs/",
+  "homepage": "https://www.theschefs.com/",
   "license": "ISC",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
