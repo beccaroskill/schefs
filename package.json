@@ -1,16 +1,13 @@
 {
-  "name": "TheSaaS",
+  "name": "Schefs",
   "version": "2.2.1",
-  "description": "Responsive Bootstrap 4 SaaS, Software & WebApp Template",
+  "description": "Schefs: Friendship through Food",
   "private": true,
   "keywords": [
-    "landing",
-    "startup",
-    "webapp",
-    "saas"
+    "schefs", "college", "university", "food", "cooking", "culinary"
   ],
-  "author": "TheThemeio",
-  "homepage": "http://thetheme.io/thesaas",
+  "author": "beccaroskill",
+  "homepage": "https://beccaroskill.github.io/schefs/",
   "license": "ISC",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
