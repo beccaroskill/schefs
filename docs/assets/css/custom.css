@@ -8,6 +8,10 @@
   justify-content: left;
 }
 
+.nav-link {
+  border-radius: 0px!important;
+}
+
 .active {
   color: #000 !important;
   background-color: #fff !important;
@@ -30,8 +34,7 @@
 }
 
 .text-sans-serif {
-  font-family: "Open Sans",sans-serif!important;
-  font-weight: 200!important;
+  font-family: "Arial",sans-serif!important;
 }
 
 .text-serif {
