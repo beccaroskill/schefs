@@ -8,6 +8,23 @@
   background-color: #000!important;
 }
 
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+
 .nav-tabs-outline {
   justify-content: left;
 }
@@ -27,9 +44,17 @@
   border: 1px solid #efefef !important;
 }
 
+.gallery-item {
+  padding: 30px 30px 0px 0px;
+}
+
+.gallery-item img {
+  margin-bottom:20px;
+}
+
 .gallery-item-group {
-  flex-basis: 33%!important;
-  max-width: 33%!important;
+  flex-basis: 25%!important;
+  max-width: 25%!important;
 }
 
 .title-divider {
