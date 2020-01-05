@@ -4,6 +4,10 @@
   margin-right: 30%;
 }
 
+.bg-dark {
+  background-color: #000!important;
+}
+
 .nav-tabs-outline {
   justify-content: left;
 }
