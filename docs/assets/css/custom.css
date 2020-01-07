@@ -4,6 +4,10 @@
   margin-right: 30%;
 }
 
+.text-white p .text-white {
+  color: #fff!important;
+}
+
 .bg-dark {
   background-color: #000!important;
 }
@@ -11,10 +15,7 @@
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: fixed;
-  right: 0;
-  bottom: 0;
   min-width: 100%;
-  min-height: 100%;
 }
 
 /* Add some content at the bottom of the video/page */
@@ -22,7 +23,8 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 20px;
+  padding-top: 19%;
+  padding-bottom: 15%;
 }
 
 .nav-tabs-outline {
@@ -44,12 +46,21 @@
   border: 1px solid #efefef !important;
 }
 
+.filter-tabs {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
 .gallery-item {
-  padding: 30px 30px 0px 0px;
+  padding: 10px 15px;
 }
 
 .gallery-item img {
   margin-bottom:20px;
+}
+
+.gallery {
+  padding-top: 30px;
 }
 
 .gallery-item-group {
@@ -93,9 +104,16 @@
 }
 
 @media (max-width: 500px) {
+  .nav-logo {
+    display: none!important;
+  }
 
   .resize-padding {
-    padding-top: 50px;
+    padding-top: 25px!important;
+  }
+
+  .filter-tabs {
+    margin-bottom: 10px !important;
   }
 
   .gallery-item-group{
@@ -106,6 +124,10 @@
   .title-divider {
     margin-top: 0.5rem;
     margin-bottom: 1rem
+  }
+
+  .header-sub {
+    font-size: 0.8rem;
   }
 
   .text-resize {
