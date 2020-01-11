@@ -35,6 +35,21 @@
   border-radius: 0px!important;
 }
 
+.gallery-expand-1 {
+  flex-basis: 61%!important;
+  max-width: 61%!important;
+}
+
+.gallery-item-group {
+  flex-basis: 25%!important;
+  max-width: 25%!important;
+}
+
+.gallery-expand-2 {
+  flex-basis: 39%!important;
+  max-width: 39%!important;
+}
+
 .active {
   color: #000 !important;
   background-color: #fff !important;
@@ -66,11 +81,6 @@
 .meet-the-chef {
   margin-left: 60px;
   padding-top: 60px;
-}
-
-.gallery-item-group {
-  flex-basis: 25%!important;
-  max-width: 25%!important;
 }
 
 .title-divider {
@@ -111,7 +121,14 @@
 @media (max-width: 500px) {
 
   .meet-the-chef {
-    margin-left: 0px!important; 
+    margin-left: 0px!important;
+  }
+
+  .gallery-expand-1, .gallery-expand-2 {
+    flex-basis: 100%!important;
+    width:100%!important;
+    max-width:100%!important;
+
   }
 
   .nav-logo {
@@ -146,6 +163,10 @@
 
   .text-subtitle {
     font-size: 1rem;
+  }
+
+  .reserve-button {
+    text-align: left!important;
   }
 
 }
