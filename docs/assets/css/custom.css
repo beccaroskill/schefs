@@ -63,6 +63,11 @@
   padding-top: 30px;
 }
 
+.meet-the-chef {
+  margin-left: 60px;
+  padding-top: 60px;
+}
+
 .gallery-item-group {
   flex-basis: 25%!important;
   max-width: 25%!important;
@@ -104,6 +109,11 @@
 }
 
 @media (max-width: 500px) {
+
+  .meet-the-chef {
+    margin-left: 0px!important; 
+  }
+
   .nav-logo {
     display: none!important;
   }
