@@ -135,6 +135,12 @@
     display: none!important;
   }
 
+  .main-logo {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
   .resize-padding {
     padding-top: 25px!important;
   }
@@ -167,6 +173,10 @@
 
   .reserve-button {
     text-align: left!important;
+  }
+
+  #myVideo {
+    min-width: 130%!important;
   }
 
 }
