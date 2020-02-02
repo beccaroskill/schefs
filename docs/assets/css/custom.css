@@ -79,8 +79,8 @@
 }
 
 .meet-the-chef {
-  margin-left: 60px;
-  padding-top: 60px;
+  margin-left: 30px;
+  padding-top: 10px;
 }
 
 .title-divider {
@@ -168,10 +168,18 @@
   }
 
   .text-subtitle {
-    font-size: 1rem;
+    font-size: 1.35rem;
   }
 
   .reserve-button {
+    text-align: left!important;
+  }
+
+  .push-right {
+    margin-right: -100px!important;
+  }
+
+  .order-button {
     text-align: left!important;
   }
 
