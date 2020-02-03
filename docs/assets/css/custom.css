@@ -12,6 +12,18 @@
   background-color: #000!important;
 }
 
+.vertical-gallery-left {
+  padding: 15px 15px 15px 0px;
+}
+
+.vertical-gallery-right {
+  padding: 15px 0px 15px 15px;
+}
+
+.vertical-gallery-center {
+  padding: 15px;
+}
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: fixed;
@@ -119,6 +131,23 @@
 }
 
 @media (max-width: 500px) {
+
+  .vertical-gallery-left {
+    width: 90%!important;
+    padding:25px;
+
+  }
+
+  .vertical-gallery-right {
+    width: 90%!important;
+    padding:25px;
+
+  }
+
+  .vertical-gallery-center {
+    width: 90%!important;
+    padding:25px;
+  }
 
   .meet-the-chef {
     margin-left: 0px!important;
