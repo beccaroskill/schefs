@@ -130,6 +130,22 @@
 
 }
 
+@media (max-width: 1200px) {
+
+  .push-right {
+    margin-right: 30px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .push-right {
+    margin-right: 40px;
+  }
+
+}
+
 @media (max-width: 500px) {
 
   .vertical-gallery-left {
@@ -202,10 +218,6 @@
 
   .reserve-button {
     text-align: left!important;
-  }
-
-  .push-right {
-    margin-right: -100px!important;
   }
 
   .order-button {
