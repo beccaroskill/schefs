@@ -127,7 +127,10 @@
 
 .text-white strong {
   color: #989898;
+}
 
+.strikethrough-text {
+  text-decoration: line-through;
 }
 
 @media (max-width: 1200px) {
