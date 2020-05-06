@@ -47,18 +47,39 @@
 			</div>
         </nav><!-- /.navbar -->
 	
+		<style>
+		#full-bg {
+		  display: none;
+		}
+		#video video{
+			width:100%;
+		}
+		@media (max-width: 767px) {
+		  #video {
+			display: none;
+		  }
+		  #full-bg {
+			display: block;
+		  }
+		}
+		</style>
 		<!-- Header -->
 		<header class="header text-white" style="background-color:#000; padding:0px;">		
+		<div id="video">
 			<video autoplay muted loop id="myVideo">
 				<source src="jackieLocalAssets/virtualVideo.mp4" type="video/mp4">
 			</video> 
-
+		</div>
+			
+		<div id="full-bg">
+  			<img src="jackieLocalAssets/virtualHome.jpg">
+		</div>
 		<!-- stupid way to create video container -->
         <div class="container content">
        	</div> 
     	<div class="container content">
        	</div>
-			
+		
 		</header><!-- /.header -->
 
 		<!-- Main Content -->
