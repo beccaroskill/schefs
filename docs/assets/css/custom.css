@@ -30,6 +30,23 @@
   min-width: 100%;
 }
 
+#full-bg {
+  display: none;
+}
+
+#videoCustom video{
+  width:auto;
+}
+
+@media (max-width: 767px) {
+#videoCustom {
+  display: none;
+}
+#full-bg {
+  display: block;
+  }
+}
+
 /* Add some content at the bottom of the video/page */
 .content {
   position: fixed;
