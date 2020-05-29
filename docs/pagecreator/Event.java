@@ -48,7 +48,7 @@ class Event{
             arr.get(i).add(finalName);
             e.writeEventPage(arr.get(i), thisSeason, pageName);}
 
-        e.writeIndex(arr, month, year);
+        // e.writeIndex(arr, month, year);
 
         // test-printing array
         /*
