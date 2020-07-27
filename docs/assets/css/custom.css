@@ -185,6 +185,10 @@
     padding:25px;
   }
 
+  .mobile-flyer{
+    display:block!important;
+  }
+
   .meet-the-chef {
     margin-left: 0px!important;
   }
